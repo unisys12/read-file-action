@@ -4,7 +4,7 @@
   "version": "1.1.6",
   "license": "MIT",
   "description": "Read file contents",
-  "repository": "juliangruber/read-file-action",
+  "repository": "unisys12/read-file-action",
   "scripts": {
     "test": "prettier-standard index.js && standard index.js",
     "build": "ncc build index.js",

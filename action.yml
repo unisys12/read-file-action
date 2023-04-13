@@ -1,20 +1,20 @@
 name: Read file
-author: juliangruber
-description: 'Read file contents'
+author: unisys12
+description: "Read json file contents to JSON object"
 branding:
-  icon: 'file'
-  color: purple
+  icon: "file"
+  color: cyan
 inputs:
   path:
-    description: 'File path'
+    description: "File path"
     required: true
   trim:
-    description: 'Trims output'
+    description: "Trims output"
     required: false
     default: false
 outputs:
   content:
-    description: 'File content'
+    description: "File content"
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
