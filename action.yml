@@ -1,6 +1,6 @@
-name: Read file
+name: Read JSON to Object
 author: unisys12
-description: "Read json file contents to JSON object"
+description: "Read JSON file contents to JSON object"
 branding:
   icon: "file"
   color: cyan
